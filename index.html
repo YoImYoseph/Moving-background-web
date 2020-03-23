@@ -12,7 +12,8 @@
 
 <div class="bgimg w3-display-container w3-text-white">
   <video autoplay muted loop id="myVideo">
-    <source src="video/bgvideo.mp4" type="video/mp4" alt="got this video from videvo">
+    <source src="video/video2.mp4" type="video/mp4" alt="got this video from pexels">
+    <source src="video/video2.wmv" type="video/wmv" alt="got this video from pexels">
   </video>
   <div class="w3-display-middle w3-jumbo">
     <span><img src="img/logo2.png" alt="sample logo"></span>
@@ -28,10 +29,21 @@
     <p class="w3-xlarge">Sun. - Thur. 08-22<br>Fri. - Sat. 08-23</p>
     <p class="w3-large">8357 W Golf Rd, Niles, IL</p>
     <p>powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-    <audio controls autoplay>
+    
+    <!-- This part, ((audio autopaly is not wroking)) -->
+
+    <iframe src="audio/silence" allow="autoplay" id="audio" style="display:none"></iframe>
+    <audio id="audio" controls autoplay>
       <source src="audio/mp3audio.mp3" alt="bgaudio" type="audio/mp3">
       <source src="audio/wavaudio.wav" alt="bgaudio" type="audio/wav">
     </audio>
+
+
+    <!-- <iframe src="silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+    <audio id="audio" autoplay>
+    <source src="../mymusic.mp3">
+    </audio> -->
+
   </div>
 </div>
 
