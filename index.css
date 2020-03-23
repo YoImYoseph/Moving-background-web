@@ -1,0 +1,32 @@
+.bgimg > .w3-display-topleft > p > button {
+  border-radius: 10px;
+  background-color: #900c27;
+}
+
+.bgimg > .w3-display-topright > p > button {
+    border-radius: 10px;
+    background-color: #900c27;
+  }
+
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.w3-display-middle > span > img {
+    max-width: 100%;
+    max-height: 100%;
+    /* background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%; */
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
